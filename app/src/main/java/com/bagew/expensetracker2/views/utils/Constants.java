@@ -29,6 +29,6 @@ public class Constants {
         categories.add(new Category("loan"));
         categories.add(new Category("others"));
         categories.add(new Category("online"));
-
+        categories.add(new Category("Given By Dad")); //God Tier
     }
 }
