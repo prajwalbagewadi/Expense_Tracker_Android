@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/transfer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/accountlbl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tag"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintStart_toEndOf="@id/img"
+        app:layout_constraintTop_toTopOf="@id/img"
+        app:layout_constraintEnd_toStartOf="@id/transactionAmount"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/transactionCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/accountlbl"
+        app:layout_constraintTop_toBottomOf="@id/accountlbl"
+        app:layout_constraintBottom_toBottomOf="@id/img"/>
+
+    <TextView
+        android:id="@+id/transactionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        app:layout_constraintStart_toEndOf="@id/transactionCategory"
+        app:layout_constraintTop_toTopOf="@id/transactionCategory"
+        app:layout_constraintBottom_toBottomOf="@id/transactionCategory"
+        android:layout_marginStart="12dp"/>
+
+    <TextView
+        android:id="@+id/transactionAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹999"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img"
+        app:layout_constraintBottom_toBottomOf="@id/img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
