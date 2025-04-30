@@ -59,5 +59,32 @@ com.expensetracker/ │ ├── data/ # Realm models and data handlers ├─�
 
 ### Clone the repository:
 ```bash
-
+https://github.com/prajwalbagewadi/Expense_Tracker_Android.git
 cd expense-tracker
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributing
+We welcome contributions! Please follow these steps:
+1. Fork the repository
+2. Create a new branch (`feature-branch`)
+3. Commit your changes (`git commit -m "Added new feature"`)
+4. Push to your branch (`git push origin feature-branch`)
+5. Open a Pull Request
+
+For detailed guidelines, check the [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 📧 Contact
+For any questions or collaboration inquiries, feel free to reach out!
+
+- **Email**: bagewadi.prajwal44@gmail.com
+- **GitHub**: [prajwalbagewadi](https://github.com/prajwalbagewadi)
+- **LinkedIn**: [prajwal-bagewadi](linkedin.com/in/prajwal-bagewadi-046128202/)
+
+---
+
+Happy Coding! 🎉🚀
